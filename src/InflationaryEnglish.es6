@@ -5,9 +5,11 @@
  * Here is an example input and output.
  *
  * Input: “Today I won an award for being awesome.”
- * Output: “Threeday I two an award five being awesome.
+ * Output: “Threeday I two an award five being awesome.”
  */
-export function InflationaryEnglishConversion(standardEnglish) {
-  // Conversion here
+export function ConvertStandardToInflationary(standardEnglish) {
+
+  // Put your code here
+
   return standardEnglish;
 }

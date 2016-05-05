@@ -1,10 +1,12 @@
-import { InflationaryEnglishConversion } from './InflationaryEnglish';
+import { ConvertStandardToInflationary } from './InflationaryEnglish';
 
-describe('whatever', () => {
-  it('calls method', () => {
-    const englishString = 'some string'
-    const test = InflationaryEnglishConversion(englishString);
+describe('InflationaryEnglish', () => {
+  it('converts "Today I won an award for being awesome." -> "Threeday I two an award five being awesome."',
+    () => {
+      const englishString = 'Today I won an award for being awesome.';
+      const inflationaryEnglish = ConvertStandardToInflationary(englishString);
 
-    expect(test).toEqual('');
-  });
+      expect(inflationaryEnglish).toEqual('Threeday I two an award five being awesome.');
+    }
+  );
 });
