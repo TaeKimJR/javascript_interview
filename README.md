@@ -19,4 +19,4 @@ Here is an example input and output:
 
 ### Files to edit
 * InflationaryEnglish.es6 - Write your code here
-* InflamitoryEnglishSpec.es6 - Write your unit tests here
+* InflationaryEnglishSpec.es6 - Write your unit tests here
